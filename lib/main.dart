@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Fabcurate',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
